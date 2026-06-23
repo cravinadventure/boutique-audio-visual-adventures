@@ -1,4 +1,4 @@
-# Library Sessions
+# DJ Set Recordings
 
 Landing page for **Cravin' Adventure Studios** — recorded audio-visual DJ sets in St. Petersburg, FL.
 
@@ -18,6 +18,8 @@ The **Submit Story** button links out to a Google Form (set the `href` in `index
 ## Hosting
 
 Served via GitHub Pages from the `main` branch root, and embedded full-page into the Squarespace site at cravinadventure.com.
+
+Live: https://cravinadventure.github.io/dj-set-recordings/
 
 ## Local preview
 
