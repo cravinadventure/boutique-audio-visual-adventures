@@ -19,7 +19,7 @@ The **Submit Story** button links out to a Google Form (set the `href` in `index
 
 Served via GitHub Pages from the `main` branch root, and embedded full-page into the Squarespace site at cravinadventure.com.
 
-Live: https://cravinadventure.github.io/dj-set-recordings/
+Live: https://cravinadventure.github.io/boutique-audio-visual-adventures/
 
 ## Local preview
 
