@@ -70,7 +70,7 @@
     display:flex;flex-direction:row;align-items:center;justify-content:center;gap:48px;max-width:none;margin:0;text-align:left;
   }
   .hero-by-photo{
-    width:186px;height:186px;border-radius:50%;flex-shrink:0;border:1px solid var(--line);
+    width:150px;height:150px;border-radius:50%;flex-shrink:0;border:1px solid var(--line);
     background:radial-gradient(circle at 32% 28%, #2d2d52, #15152a);
     background-size:cover;background-position:center;
   }
@@ -133,7 +133,7 @@
   .journey{margin:32px 0 0 -10%;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;width:120%}
   .jcard{
     background:linear-gradient(160deg,#1a1a30,#121221);
-    border:1px solid var(--line);border-radius:16px;padding:26px 24px;
+    border:2px solid var(--line);border-radius:16px;padding:26px 24px;
     position:relative;overflow:hidden;
   }
   .jcard .ph{
@@ -144,12 +144,12 @@
   .jcard p{font-size:15px;color:var(--muted)}
   .jcard .ji{position:absolute;top:22px;right:22px;width:24px;height:24px;stroke:var(--electric);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.75;filter:drop-shadow(0 0 6px rgba(108,92,231,.55))}
   @keyframes progressOutline{0%,100%{border-color:var(--line)}22%,68%{border-color:var(--electric)}}
-  .jcard{animation:progressOutline 4.8s ease-in-out infinite}
-  .jcard:nth-child(2){animation-delay:.5s}
-  .jcard:nth-child(3){animation-delay:1s}
-  .jcard:nth-child(4){animation-delay:1.5s}
+  .jcard{animation:progressOutline 8s ease-in-out infinite}
+  .jcard:nth-child(2){animation-delay:.9s}
+  .jcard:nth-child(3){animation-delay:1.8s}
+  .jcard:nth-child(4){animation-delay:2.7s}
   @media(prefers-reduced-motion:reduce){.jcard{animation:none}}
-  .jcard.cta{border:1.5px solid var(--electric)}
+  .jcard.cta{border:2px solid var(--electric)}
   .arc{
     margin-top:60px;height:90px;position:relative;
   }
